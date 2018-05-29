@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/backgroundcolor"
+    tools:context=".SettingsActivity.SettingsActivity">
+
+    <Switch
+        android:id="@+id/nightmodeSwitch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/night_mode"
+        android:textColor="?attr/textcolor"
+        android:layout_margin="10dp" />
+
+</RelativeLayout>

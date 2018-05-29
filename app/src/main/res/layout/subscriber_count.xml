@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fullWidget"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+
+    <ImageView
+        android:id="@+id/channelLogoWidget"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="-5dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/loadingicon" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@id/channelLogoWidget"
+        android:layout_toRightOf="@id/channelLogoWidget"
+        android:layout_marginRight="24dp"
+        android:layout_marginEnd="24dp"
+        >
+        <TextView
+            android:id="@+id/appwidget_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/appwidget_text"
+            android:gravity="end"
+            android:text="@string/appwidget_text"
+            android:textColor="#000"
+            android:textSize="34sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/appwidget_text_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/appwidget_text"
+            android:gravity="end"
+            android:text="@string/appwidget_text"
+            android:textColor="#666666"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

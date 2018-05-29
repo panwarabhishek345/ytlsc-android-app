@@ -1,0 +1,58 @@
+<resources>
+
+    <!-- Day Mode theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="backgroundcolor">@color/background</item>
+        <item name="cardbackgroundcolor">@color/cardBackgroundColor</item>
+        <item name="textcolor">@color/textColor</item>
+        <item name="tintcolor">@color/tintColor</item>
+        <item name="buttoncolor">@color/buttonColor</item>
+        <item name="textcolorlight">@color/textColorLight</item>
+        <item name="tintcoloricon">@color/tintColorIcon</item>
+    </style>
+
+    <!-- Night Mode theme. -->
+    <style name="AppThemeNight" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimaryNight</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkNight</item>
+        <item name="colorAccent">@color/colorAccentNight</item>
+        <item name="backgroundcolor">@color/backgroundNight</item>
+        <item name="cardbackgroundcolor">@color/cardBackgroundColorNight</item>
+        <item name="textcolor">@color/textColorNight</item>
+        <item name="tintcolor">@color/tintColorNight</item>
+        <item name="buttoncolor">@color/buttonColorNight</item>
+        <item name="textcolorlight">@color/textColorLightNight</item>
+        <item name="tintcoloricon">@color/tintColorIconNight</item>
+    </style>
+
+    <style name="AppThemeNoActionBar" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!--for changing the navigation drawer menu title "Communicate"-->
+        <item name="android:textColorSecondary">@color/textColorLight</item>
+    </style>
+
+    <style name="AppThemeNightNoActionBar" parent="AppThemeNight">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!--for changing the navigation drawer menu title "Communicate"-->
+        <item name="android:textColorSecondary">@color/textColorLightNight</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+    </style>
+
+</resources>

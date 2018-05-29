@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Colors for Day Mode-->
+    <color name="colorPrimary">#E62118</color>
+    <color name="colorPrimaryDarker">#E01F13</color>
+    <color name="colorPrimaryDark">#a3180d</color>
+    <color name="colorAccent">#487DF2</color>
+    <color name="white">#f7f7f7</color>
+    <color name="background">#f7f7f7</color>
+    <color name="cardBackgroundColor">#F5F5F5</color>
+    <color name="textColor">#000000</color>
+    <color name="textColorLight">#535353</color>
+    <color name="tintColor">#7e7e7e</color>
+    <color name="buttonColor">#7e7e7e</color>
+    <color name="tintColorIcon">#a3180d</color>
+
+    <!--Colors for Night Mode-->
+    <color name="colorPrimaryNight">#b43934</color>
+    <color name="colorPrimaryDarkerNight">#a6180f</color>
+    <color name="colorPrimaryDarkNight">#581f1b</color>
+    <color name="colorAccentNight">#487DF2</color>
+    <color name="backgroundNight">#1b1b1b</color>
+    <color name="cardBackgroundColorNight">#2e2e2e</color>
+    <color name="textColorNight">#c7c7c7</color>
+    <color name="textColorLightNight">#a4a4a4</color>
+    <color name="tintColorNight">#7e7e7e</color>
+    <color name="buttonColorNight">#7e7e7e</color>
+    <color name="tintColorIconNight">#f4463a</color>
+
+</resources>
